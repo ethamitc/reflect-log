@@ -1,6 +1,6 @@
 {
 	"name": "reflect-log",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A NPM package that makes your console messages look nice.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
