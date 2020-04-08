@@ -1,6 +1,6 @@
 {
 	"name": "reflect-log",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "A NPM package that makes your console messages look nice.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -13,7 +13,13 @@
 		"type": "git",
 		"url": "git+https://github.com/ethamitc/reflect-log.git"
 	},
-	"keywords": [ "log", "logger", "color", "colour", "pretty" ],
+	"keywords": [
+		"log",
+		"logger",
+		"color",
+		"colour",
+		"pretty"
+	],
 	"author": "Ethan Mitchell <ethamitc@gmail.com> (https://ethanmitchell.me)",
 	"license": "MIT",
 	"bugs": {
