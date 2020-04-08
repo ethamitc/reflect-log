@@ -1,0 +1,31 @@
+{
+	"name": "reflect-log",
+	"version": "0.0.0",
+	"description": "A NPM package that makes your console messages look nice.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "mocha test.js",
+		"build": "tsc",
+		"docs": "typedoc --out docs src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ethamitc/reflect-log.git"
+	},
+	"keywords": [ "log", "logger", "color", "colour", "pretty" ],
+	"author": "Ethan Mitchell <ethamitc@gmail.com> (https://ethanmitchell.me)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ethamitc/reflect-log/issues"
+	},
+	"homepage": "https://github.com/ethamitc/reflect-log#readme",
+	"devDependencies": {
+		"typedoc": "^0.17.4",
+		"typescript": "^3.8.3"
+	},
+	"dependencies": {
+		"chalk": "^4.0.0",
+		"moment": "^2.24.0"
+	}
+}
