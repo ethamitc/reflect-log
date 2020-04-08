@@ -5,9 +5,7 @@ export class Logger {
 	private ctx: chalk.Chalk;
 	private timestamp: string;
 	constructor(options?: LogOptions) {
-		if (typeof options !== 'object') throw new TypeError();
-
-		this.ctx = new chalk.Instance({ level: options.colorLevel });
+		this.ctx = new chalk.Instance({ level: options?.colorLevel });
 
 		let m = moment();
 		let d = this.ctx.cyan(m.format('DD/MM/YYYY'));
